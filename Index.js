@@ -71,6 +71,70 @@ example2.push(true)
 
 console.log(example2); */
 
-let example1 = {
-    firstname: 'Dylan'
-};
+//let example1 = {
+//    firstname: 'Dylan'
+//};
+
+/*function add(...nums) {
+
+    console.log(nums)
+}
+add(5,3,5)*/
+
+//=======================REST OPREATOR/ARROW FUNCTIOS
+
+//function add(...nums) {
+
+  //  let total = nums.reduce((x, y) => x*y )
+   // console.log(total)
+//}
+
+//add(4,4,)
+//-------------------DEFAULT PARAMAS
+
+/* function add(numArray = []) {
+    let total = 0;
+    numArray.forEach((element) => {
+        total+= element;
+    });
+    console.log(total);
+} */
+
+//========================INCLUDES
+/*
+let numArray = [1,2,3,4,5,6];
+
+console.log(numArray.includes(2))
+*/
+//--------------------LET/const
+/*
+const example = {};
+example.firstName = 'Saad'
+
+console.log(example) 
+
+
+importexport */ /*
+
+import { data } from './example.js'
+let updateddata = data;
+
+updateddata.push(5)
+console.log(data) */
+
+//========================================padstarts 
+/*
+let example = 'Saad'
+
+
+
+console.log(example.padEnd(10, 'a')) */
+
+/*
+
+import { Animal } from './animal.js';
+
+let cat = new Animal (cat, 4)
+
+console.log(cat.legs)
+
